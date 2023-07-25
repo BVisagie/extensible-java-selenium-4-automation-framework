@@ -1,7 +1,5 @@
-package com.example.sut.wikipedia.tests;
+package com.example.base;
 
-import com.example.base.TestSession;
-import com.example.base.TestSessionSetup;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 

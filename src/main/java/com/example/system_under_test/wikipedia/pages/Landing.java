@@ -1,4 +1,4 @@
-package com.example.sut.wikipedia.pages;
+package com.example.system_under_test.wikipedia.pages;
 
 import com.example.base.TestSession;
 import org.openqa.selenium.By;

@@ -1,7 +1,8 @@
-package com.example.sut.wikipedia.tests;
+package com.example.system_under_test.wikipedia.tests;
 
-import com.example.sut.wikipedia.pages.EnglishLanding;
-import com.example.sut.wikipedia.pages.Landing;
+import com.example.base.TestsBase;
+import com.example.system_under_test.wikipedia.pages.EnglishLanding;
+import com.example.system_under_test.wikipedia.pages.Landing;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
