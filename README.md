@@ -35,10 +35,10 @@ The project consists of the following primary elements and technologies:
 ### Project Structure Overview
 
 * Base
-  * Provides the generic base of the framework
+    * Provides the generic base of the framework
 * System Under Test ([SUT](https://en.wikipedia.org/wiki/System_under_test))
-  * Pages (Page Objects)
-  * Tests
+    * Pages (Page Objects)
+    * Tests
 
 ### Authors
 

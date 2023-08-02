@@ -12,6 +12,7 @@ import org.openqa.selenium.safari.SafariDriver;
 import org.openqa.selenium.safari.SafariOptions;
 
 public class TestSessionSetup {
+    public static final String INCOGNITO = "--incognito";
     private boolean runHeadless;
     private boolean incognitoBrowser;
 
@@ -51,7 +52,7 @@ public class TestSessionSetup {
         }
 
         if (incognitoBrowser) {
-            options.addArguments("--incognito");
+            options.addArguments(INCOGNITO);
         }
 
         return new EdgeDriver(options);
@@ -65,7 +66,7 @@ public class TestSessionSetup {
         }
 
         if (incognitoBrowser) {
-            options.addArguments("--incognito");
+            options.addArguments(INCOGNITO);
         }
 
         return new ChromeDriver(options);
@@ -79,7 +80,7 @@ public class TestSessionSetup {
         }
 
         if (incognitoBrowser) {
-            options.addArguments("--incognito");
+            options.addArguments(INCOGNITO);
         }
 
         return new FirefoxDriver(options);
